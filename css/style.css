@@ -1,3 +1,28 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
 .hidden {
     display: none;
+}
+.background {
+    position:absolute;
+    width:100%;
+    height:auto;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:60%;
+}
+#clock {
+    text-align: center;
+    margin: 20px;
+    margin-top: 60px;
+    font-size: 60px;
+}
+.username {
+    text-align: center;
+    font-size: 20px;
 }

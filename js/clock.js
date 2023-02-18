@@ -9,7 +9,7 @@ function getClock() {
     let hour = getClockFormat(date.getHours()),
         min = getClockFormat(date.getMinutes()),
         sec = getClockFormat(date.getSeconds());
-    clock.innerText = `${hour}:${min}:${sec}`;
+    clock.innerText = `${hour}:${min}`;
 }
 
 getClock();
